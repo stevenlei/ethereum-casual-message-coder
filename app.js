@@ -16,8 +16,6 @@ const {
     ],
   });
 
-  // Main application logic remains mostly the same up to the mode selection
-
   if (mode === "encode") {
     const { text } = await prompts({
       type: "text",
